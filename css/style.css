@@ -1,0 +1,139 @@
+body{
+    display: grid;
+    grid-template-columns: 40vw 20vw 40vw; 
+    grid-template-rows: 10vh 50vh 40vh;
+    grid-template-areas: 
+    'sc mn as'
+    'sc mn as'
+    'sc mn as';
+    background-image: url(../img/modern-blank-room-blue-turquoise-wall-with-sunlight-window-blank-room-background-use_861973-37390.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 97vh;   
+}
+
+
+#shocase1{
+
+    width: 94%;
+    height: 50%;
+    margin-top: 235px;
+    box-shadow: -30px 30px 60px 0px rgba(21, 21, 21, 0.748); 
+
+}
+
+#leftbutton{
+
+    height: 170px;
+    width: 160px;
+    border-radius: 600px;
+    backdrop-filter: blur;
+    background-color: transparent;
+    border: 2px solid rgba(230, 229, 229, 0.5);
+    box-shadow: -20px 20px 40px 0px rgba(248, 248, 248, 0.492) inset; 
+    backdrop-filter: blur(60px);
+    
+}
+
+#rightbutton{
+
+    
+    height: 170px;
+    width: 160px;
+    border-radius: 600px;
+    backdrop-filter: blur;
+    background-color: transparent;
+    border: 2px solid rgba(230, 229, 229, 0.5);
+    box-shadow: 20px 20px 40px 0px rgba(255, 255, 255, 0.681) inset; 
+    backdrop-filter: blur(600px);
+    opacity: 1.3;
+}
+
+
+#rightbutton img{
+    height: 90px;
+    opacity: 0.2;
+
+}
+
+#leftbutton img{
+
+    height: 90px;
+    rotate: 180deg;
+    opacity: 0.2;
+}
+
+
+#infotext{
+
+    background-color: transparent;
+    width: 400px;
+    height: 500px;
+    margin-left: 70px;
+    border-radius: 100px;
+    border: 2px solid rgba(230, 229, 229, 0.5);
+    backdrop-filter: blur(600px);
+    text-overflow: inherit;
+    font-size: 1em;
+
+}
+
+#infoTEXT{
+
+    padding: 40px;
+    margin-top: 50px;
+
+}
+
+#headshot{
+
+    background-color: transparent;
+    width: 400px;
+    height: 500px;
+    margin-right: 70px;
+    border-radius: 100px;
+    border: 2px solid rgba(230, 229, 229, 0.5);
+    backdrop-filter: blur(600px);
+    text-overflow: inherit;
+    font-size: 1em;
+
+}
+
+
+header{
+
+    grid-area: hd;
+    background-color: blue;
+    border-radius: 50px;
+    opacity: 0.3;
+
+}
+
+main{
+
+    grid-area: mn;
+
+}
+
+aside{
+    display: flex;
+    grid-area: as;
+    background-color: transparent;
+    justify-content: space-around;    
+    align-items: center;
+
+}
+
+
+section{
+    display: flex;
+    grid-area: sc;
+    background-color: transparent;
+    align-items: center;
+    justify-content:space-around;}
+
+
+
+
+
