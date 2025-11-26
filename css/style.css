@@ -73,20 +73,7 @@ body{
     transition: o.6s;
 }
 
-#leftbutton:hover{
-    backdrop-filter: blur(5px);
-    box-shadow: 30px 10px 20px 0px #ffffff7d inset; 
-    width: 70px;
 
-}
-
-#rightbutton:hover{
-
-    backdrop-filter: blur(5px);
-    box-shadow: -30px 10px 20px 0px #ffffff7d inset; 
-    width: 70px;
-    margin-right: 90px;
-}
 
 
 
@@ -100,6 +87,7 @@ body{
     backdrop-filter: blur(5px);
     text-overflow: inherit;
     font-size: 1em;
+    margin-bottom: 80px;
 
 }
 
@@ -121,7 +109,7 @@ body{
 
 #headshot{
     display: flex;
-
+    
     background-color: transparent;
     width: 400px !important;
     height: 500px;
@@ -145,35 +133,10 @@ body{
     
 }
 
-#namnHeadshot{
-    display: flex;
-    margin-top: 550px;
-    margin-left: -515px;  
-    margin-right: 50px;  
-    height: 60px;
-    width: 400px;
-    border-radius: 40px;
-    border: 2px solid rgba(230, 229, 229, 0.5);
-    background-color: transparent;
-    backdrop-filter: blur(600px);
-    color: transparent;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    justify-items: center;
 
-}
 
-#headshotText{
-    display: flex;
-    margin-top: 0px;
-    font-size: 1.67em;
-    margin-top: 0;
-    font-family: "olle";
-    color: whitesmoke;
-    font-weight: 200;
-    
-}
+
+
 
 header{
 
@@ -194,7 +157,7 @@ aside{
     display: flex;
     grid-area: as;
     background-color: transparent;
-    justify-content: space-evenly; 
+    justify-content: space-around; 
     align-items: center;
 }
 
