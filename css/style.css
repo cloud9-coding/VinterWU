@@ -3,7 +3,7 @@ body{
     grid-template-columns: 40vw 20vw 40vw; 
     grid-template-rows: 10vh 50vh 40vh;
     grid-template-areas: 
-    'sc mn as'
+    'hd hd hd'
     'sc mn as'
     'sc mn as';
     background-image: url(../img/modern-blank-room-blue-turquoise-wall-with-sunlight-window-blank-room-background-use_861973-37390.png);
@@ -14,17 +14,49 @@ body{
 }
 
 @font-face {
-    font-family: olle;
+    font-family: ett;
+    src: url(/fonts/DroplineRegular-Wpegz.otf);
+}
+
+@font-face {
+    font-family: två;
     src: url(/fonts/Oi-Regular.ttf);
 }
 
+@font-face {
+    font-family: tre;
+    src: url(/fonts/QueensidesMedium-x30zV.ttf);
+}
 
+@font-face {
+    font-family: fyra;
+    src: url(/fonts/SportingOutline-x3e85.ttf);
+}
+
+@font-face {
+    font-family: fem;
+    src: url(/fonts/SuperMaples-2vR2w.ttf);
+}
+
+@font-face {
+    font-family: sex;
+    src: url(/fonts/DushickRegular-3lx96.otf);
+}
+
+header h1{
+    color: grey;
+    font-family: sex;
+    font-size: 4em;
+    text-align: center;
+    font-weight: 1;
+    margin: 0;
+}
 
 #shocase1{
 
     width: 94%;
-    height: 50%;
-    margin-top: 230px;
+    height: 55%;
+    margin-top: 140px;
     box-shadow: -30px 30px 60px 0px rgba(21, 21, 21, 0.748); 
 
 }
@@ -73,7 +105,13 @@ body{
     transition: o.6s;
 }
 
+#leftbutton:hover{
+    box-shadow: 30px 20px 20px 0px rgba(248, 248, 248, 0.492) inset; 
+}
 
+#rightbutton:hover{
+    box-shadow: -30px 20px 40px 0px rgba(255, 255, 255, 0.681) inset; 
+}
 
 
 
@@ -97,15 +135,19 @@ body{
     margin-top: 50px;
     color: whitesmoke;
     text-shadow: rgba(230, 229, 229, 0.5);
-
+    font-family: ett;
 
 }
+
 
 #infoTEXT h2{
 
     margin: 0px;
     padding: 0px;
+    
 }
+
+
 
 #headshot{
     display: flex;
@@ -130,7 +172,6 @@ body{
     margin-left: 60px;
     margin-top: 45px;
     border-radius: 60px;
-    
 }
 
 
@@ -141,10 +182,13 @@ body{
 header{
 
     grid-area: hd;
-    background-color: blue;
-    border-radius: 50px;
-    opacity: 0.3;
-
+    background-color: whitesmoke;
+    border-radius: 15px;
+    opacity: 0.9;
+    width: 90vw;
+    margin-left: 80px;
+    padding: 20px;
+    
 }
 
 main{
