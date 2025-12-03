@@ -49,9 +49,39 @@ header h1{
     font-size: 4em;
     text-align: center;
     font-weight: 1;
-    margin: 0;
+    margin: 0;  
+    margin-right: 300px;
+    margin-top: 10px;
 }
 
+#om{
+
+    margin-left: 160px;
+    margin-right: 370px;
+    text-decoration: none;
+    font-size: 3em;
+    color: grey;
+    font-family: fyra;
+    margin-top: 20px;
+    
+
+}
+
+
+
+#bläddra{
+
+    margin-top: 20px;
+    font-size: 3em;
+    color: grey;
+    font-family: fyra;
+}
+
+#om:hover{
+
+    animation-name: text;
+    animation-duration: infinite;
+}
 #shocase1{
 
     width: 94%;
@@ -175,7 +205,9 @@ header h1{
 }
 
 
-
+a:link{
+        text-decoration: none;
+}
 
 
 
@@ -187,8 +219,10 @@ header{
     opacity: 0.9;
     width: 90vw;
     margin-left: 80px;
-    padding: 20px;
-    
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+
 }
 
 main{

@@ -3,7 +3,9 @@ const images = [
     '/img/anBn.png',
     '/img/einar.png',
     '/img/st.png',
-    '/img/pt.png'
+    '/img/pt.png',
+    '/img/HA.png'
+
 ];
 
 const headshotImages = [
@@ -11,7 +13,10 @@ const headshotImages = [
     '/img/ragnar.png',
     '/img/vangog.png',
     '/img/cm.png',
-    '/img/jj.png'
+    '/img/jj.png',
+    '/img/HAH.png'
+
+
 ];
 
 const infoTexts = [
@@ -20,6 +25,7 @@ const infoTexts = [
     'Med en tydlig känsla för form och berättelse skapade Ragnar Johansson ett särpräglat konstnärskap som väckte bred uppskattning. Han visade sina verk regelbundet och finns representerad på flera museer. Hans målningar förenar stillsam poesi med förtätade motiv och symbolik i varje penseldrag.',
     'Genom att utforska gränsen mellan bild och idé etablerade Jasper Johns ett banbrytande konstnärligt uttryck som fick stor betydelse. Han ställde ut internationellt och finns på många museer. Hans målningar kombinerar grafisk klarhet med konceptuellt komplexa motiv och symbolik i sitt skapande.',
     'Genom noggranna studier av ljusets skiftningar utvecklade Claude Monet ett måleriskt språk som kom att forma impressionismen. Han deltog aktivt i grupputställningar och finns på många museer. Hans målningar förenar atmosfäriskt djup med vibrerande motiv och poetisk symbolik i hela sin produktion.',
+    'Hehehha'
 ];
 
 
