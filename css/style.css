@@ -44,26 +44,28 @@ body{
 }
 
 header h1{
-    color: grey;
-    font-family: sex;
+    color: whitesmoke;
+    font-family: fem;
     font-size: 4em;
     text-align: center;
     font-weight: 1;
     margin: 0;  
-    margin-right: 300px;
+    margin-right: 330px;
     margin-top: 10px;
+    text-shadow: 5px 5px #558abb;
 }
+
 
 #om{
 
-    margin-left: 160px;
-    margin-right: 370px;
+    margin-left: 80px;
+    margin-right: 385px;
     text-decoration: none;
     font-size: 3em;
-    color: grey;
-    font-family: fyra;
+    color: white;
+    font-family: fem;
     margin-top: 20px;
-    
+    text-shadow: 5px 5px #558abb;
 
 }
 
@@ -73,8 +75,9 @@ header h1{
 
     margin-top: 20px;
     font-size: 3em;
-    color: grey;
-    font-family: fyra;
+    color: white;
+    font-family: fem;
+    text-shadow: 5px 5px #558abb;
 }
 
 #om:hover{
@@ -156,8 +159,11 @@ header h1{
     text-overflow: inherit;
     font-size: 1em;
     margin-bottom: 80px;
+   
 
 }
+
+
 
 #infoTEXT{
 
@@ -214,7 +220,7 @@ a:link{
 header{
 
     grid-area: hd;
-    background-color: whitesmoke;
+    background-color: transparent;
     border-radius: 15px;
     opacity: 0.9;
     width: 90vw;

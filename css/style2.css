@@ -1,0 +1,67 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    'hd hd hd'
+    'mn mn mn'
+    'mn mn mn'
+    'ft ft ft'
+    ;
+    margin: 0;
+    height: 230vh;
+
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 180vh 30vh;
+}
+
+.card {
+    width: 80%; 
+    height: 400px; 
+    gap: 0;
+    background-color: #558abb; 
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    
+}
+
+.card h2{
+    color: red;
+}
+
+body img{
+
+    width: 50%;
+    height: 80%;
+    margin-left: 40px;
+}
+
+
+
+footer{
+
+    grid-area: ft;
+    background-color: cadetblue;
+}
+
+header{
+
+    grid-area: hd;
+    background-color: black;
+}
+
+main{
+
+    grid-area: mn;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-items: center; 
+    align-items: center;
+}
+
+

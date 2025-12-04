@@ -59,3 +59,5 @@ rightButton.addEventListener('click', nextImage);
 leftButton.addEventListener('click', prevImage);
 
 document.addEventListener('DOMContentLoaded', updateImage);
+
+    
