@@ -8,16 +8,21 @@ body{
     ;
     margin: 0;
     height: 230vh;
-
+    
     grid-template-columns: 100vw;
     grid-template-rows: 10vh 180vh 30vh;
+}
+
+@font-face {
+    font-family: ett;
+    src: url(/fonts/BitcountPropSingle-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf);
 }
 
 .card {
     width: 80%; 
     height: 400px; 
     gap: 0;
-    background-color: #558abb; 
+    background-color: transparent; 
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     color: white;
@@ -29,8 +34,9 @@ body{
     
 }
 
-.card h2{
-    color: red;
+.card li{
+        color: grey;
+        font-family: ett;
 }
 
 body img{
@@ -38,6 +44,8 @@ body img{
     width: 50%;
     height: 80%;
     margin-left: 40px;
+    box-shadow: -30px 30px 90px 0px rgba(102, 101, 101, 0.748); 
+
 }
 
 
@@ -57,7 +65,7 @@ header{
 main{
 
     grid-area: mn;
-    background-color: white;
+    background-color: #F0EEE9;
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     justify-items: center; 
