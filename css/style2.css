@@ -18,25 +18,78 @@ body{
     src: url(/fonts/BitcountPropSingle-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf);
 }
 
+@font-face {
+    font-family: fem;
+    src: url(/fonts/SuperMaples-2vR2w.ttf);
+}
+header h1{
+    color: grey;
+    font-family: fem;
+    font-size: 4em;
+    text-align: center;
+    font-weight: 1;
+    margin: 0;  
+    margin-right: 330px;
+    margin-top: 10px;
+    text-shadow: 5px 5px orange;
+}
+
+#om{
+
+    margin-left: 230px;
+    margin-right: 330px;
+    text-decoration: none;
+    font-size: 3em;
+    color: grey;
+    font-family: fem;
+    margin-top: 20px;
+    text-shadow: 5px 5px orange;
+
+}
+
+
+
+#bläddra{
+
+    margin-top: 20px;
+    font-size: 3em;
+    color: grey;
+    font-family: fem;
+    text-shadow: 5px 5px orange;
+}
+
 .card {
     width: 80%; 
     height: 400px; 
     gap: 0;
-    background-color: transparent; 
+    background-color: whitesmoke; 
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     color: white;
     font-size: 1.5em;
     display: flex;
     justify-content: space-evenly;
+    transition: 0.3s;
 
     align-items: center;
     
 }
 
+.ghost{
+
+    color: transparent;
+}
+
 .card li{
         color: grey;
+        text-shadow: 2px 2px orange;
         font-family: ett;
+        font-size: larger;
+}
+
+.card:hover{
+
+    transform: scale(1.05);
 }
 
 body img{
@@ -45,6 +98,13 @@ body img{
     height: 80%;
     margin-left: 40px;
     box-shadow: -30px 30px 90px 0px rgba(102, 101, 101, 0.748); 
+        transition: 0.3s;
+
+}
+
+img:hover{
+
+    transform: scale(1.05);
 
 }
 
@@ -53,13 +113,16 @@ body img{
 footer{
 
     grid-area: ft;
-    background-color: cadetblue;
+    background-color: white;
 }
 
 header{
-
     grid-area: hd;
-    background-color: black;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    display: flex;
+    text-decoration: none;
+
 }
 
 main{
@@ -70,6 +133,10 @@ main{
     grid-template-columns: repeat(3, 1fr); 
     justify-items: center; 
     align-items: center;
+}
+
+a:link{
+        text-decoration: none;
 }
 
 
