@@ -1,0 +1,27 @@
+  body{
+    
+    display: grid;
+    grid-template-columns: 40vw 20vw 40vw; 
+    grid-template-rows: 10vh 50vh 40vh;
+    grid-template-areas: 
+    'hd hd hd'
+    'hd hd hd'
+    'mn mn mn';
+    height: 97vh;
+
+ }
+
+
+
+ main{
+
+    grid-area: mn;
+    background-color: aquamarine;
+    
+ }
+
+ header{
+
+    grid-area: hd;
+    background-color: red;
+ }
