@@ -5,23 +5,133 @@
     grid-template-rows: 10vh 50vh 40vh;
     grid-template-areas: 
     'hd hd hd'
-    'hd hd hd'
+    'mn mn mn'
     'mn mn mn';
-    height: 97vh;
-
+    height: 100vh;
+    background-color: #E1D9D1;
  }
+
+ @font-face {
+    font-family: ett;
+    src: url(/fonts/BitcountPropSingle-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: fem;
+    src: url(/fonts/SuperMaples-2vR2w.ttf); }
+
+@font-face {
+    font-family: sex;
+    src: url(/fonts/RobotoSlab-VariableFont_wght.ttf); }
+
+#headtxt{
+
+   margin-left: 100px;
+   margin-top: 20px;
+   font-family: fem;
+   font-size: 4em;
+   color: aliceblue;
+   text-shadow: 2px 2px orange;
+
+   margin-left: 37%;
+}
+
+#inspimg{
+
+   height: 600px;
+   width: 500px;
+   margin-left: 760px;
+   margin-bottom: 30px;
+   box-shadow: -30px 30px 90px 0px rgba(102, 101, 101, 0.748); 
+   z-index: 1000;
+}
+
+#card{
+   display: flex;
+   background-color: whitesmoke;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) inset;
+   height: 800px;
+   width: 1500px;
+   margin-top: -800px;
+   align-items: center;
+   border-radius: 50px;
+   margin-left: 150px;
+
+}
+
+#info{
+
+   background-color: white;
+   height: 800px;
+   width: 1200px;
+   margin-left: 150px;
+   border-radius: 40px;
+   clip-path: polygon(
+        0% 0%, 
+        50% 0%,
+        60% 50%,   
+        90% 60%, 
+        90% 100%,  
+        0% 100%     
+    );
+    z-index: 1000;
+  
+}
+
+
+#Name{
+   display: flex;
+   color: grey;
+   font-family: ett;
+   margin-left: 70px;
+   margin-top: 30px;
+   font-size: 2.5em;
+   text-shadow: 2px 2px white;
+}
+
+#Pris{
+
+   margin-left: 70px;
+   margin-top: -20px;
+   color: orange;
+   font-size: 2em;
+   font-family: ett;
+}
+
+#infoP{
+
+   margin-left: 70px;
+   width: 600px;
+   color: grey;
+   font-size: 1.7em;
+   margin-top: 120px;
+   font-family: sex;
+}
 
 
 
  main{
 
-    grid-area: mn;
-    background-color: aquamarine;
-    
+   grid-area: mn;
+   background-color:#E1D9D1 ; 
+
  }
 
  header{
 
     grid-area: hd;
-    background-color: red;
- }
+   background-color:#E1D9D1 ; 
+}
+
+#one{
+
+ z-index: 10000000;
+ margin-top: -100px;
+ margin-left: 30px;
+ opacity: 0;
+}
+
+#one:hover{
+
+   opacity: 1;
+}

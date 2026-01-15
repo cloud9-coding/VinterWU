@@ -83,7 +83,7 @@ header h1{
 #om:hover{
 
     animation-name: text;
-    animation-duration: infinite;
+   
 }
 #shocase1{
 
@@ -135,7 +135,7 @@ header h1{
     height: 90px;
     rotate: 180deg;
     opacity: 0.2;
-    transition: o.6s;
+    transition: 0.6s;
 }
 
 #leftbutton:hover{
